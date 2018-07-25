@@ -9,11 +9,13 @@ end
 nancy = User.new("Nancy", "Negative")
 doug = User.new("Doug", "Funnie")
 tom = User.new("Tom", "@myspace")
+
 # #
 piper = Album.new("The Piper at the Gates of Dawn", "Pink Floyd", 1967)
 pepper = Album.new("Sgt Pepper's Lonely Hearts Club Band", "The Beatles", 1967)
 aretha = Album.new("Aretha Arrives", "Aretha Franklin", 1967)
-#
+
+# #
 r1 = Review.new(nancy, piper, "This album sucks")
 r2 = Review.new(nancy, pepper, "This album is even worse than the last one")
 r3 = Review.new(nancy, aretha, "Seriously give me something I can dance to")
